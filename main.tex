@@ -248,6 +248,24 @@ Now, consider the set of functions $J:=\left\{ \chi_{\left\{ y \right\}}: y\in Y
 Let $f: \R \to \R$ be a function which is differentiable everywhere. Consider the sequence of function $\left\{ f_n \right\}_{n\in \N}$ which is given by $f_n \left( x \right) = \frac{f\left( x+ \frac{1}{n} \right)-f\left( x \right) }{1/n}$ for every $x\in\R$. Clearly, $f_n \to f$ pointwise on $\R$ and each $f_n$ is measurable. Since limit of Borel measurable functions is measurable, we have that $f$ is Borel measurable. 
 
 \subsubsection{Question 4}
+Let $A:=\left\{ x\in X : \lim_{n} f_n (x) \text{ exists and finite} \right\}$. Let $B:=\left\{ x\in X: \limsup_n f_n (x) =\liminf_n f_n (x) \right\}$. Then $B$ is measurable by virtue of Proposition 2.1.5 and 2.1.3. Note that $B$ is the set of all points $x$ in $X$ where $\lim_n f_n (x)$ exists.  Now $|f|$ is a measurable function. So the set $C:=\bigcap_n \left\{ x\in X : |f| (x) \le n \right\}$ is measurable. Notice that set $A= B\cap C$ and this completes the proof. 
 
+\subsubsection{Question 5}
+Let $\left( X, \scrA \right)$ be a measurable space and let $f,g: X\to \R$ be simple, measurable functions. We first show the following statement is true: A measurable function $f: X\to \R$ is simple iff there exists $\alpha _1 , \ldots , \alpha _n \in \R$ and $A_1 , \ldots , A_n \in \scrA$ such that $f=\sum_{i=1}^{n} a_i \chi_{A_i}$.
+
+Let $f: X\to \R$ be measurable. We start the proof of the above statement. $\left( \Longrightarrow \right)$ Suppose that $f$ is simple. Then, by definition, $f$ takes only finitely many values, say, $\alpha _1 , \ldots, \alpha _n$. Since $f$ is measurable, the set $A_i := \left\{ x\in X : f\left( x \right) = \alpha _i \right\}$ is measurable. Then it is easy to check that $f=\sum_{i=1}^{n} a_i \chi_{A_i}$. $(\Longleftarrow)$ Suppose that there exists $\alpha _1 , \ldots , \alpha _n \in \R$ and $A_1 , \ldots , A_n \in \scrA$ such that $f=\sum_{i=1}^{n} a_i \chi_{A_i}$. Suppose that $\alpha_1 < \alpha _2 < \ldots < \alpha _n$. It is fairly easy to check by cases that $f$ is measurable (Just see what happens when $\alpha_i<t$ for each $i$).
+
+\begin{enumerate}
+    \item Let $f, g: X \to \R$ be simple measurable functions. Then there exists $\alpha _1 , \ldots , \alpha _n \in \R$ and $A_1 , \ldots , A_n \in \scrA$ such that $f=\sum_{i=1}^{n} a_i \chi_{A_i}$ and 
+	there exists $\beta _1 , \ldots , \beta _m$ and measurable sets $B_1 , B_2 , \ldots , B_m$ such that $g=\sum_{j=1}^{m} b_j \chi_{B_j}$. It is then easy to see that $f+g = \sum_{i}\sum_{j} \left( a_i + b_j \right) \chi_{A_i \cap B_j}$ and $fg =\sum_{i}\sum_{j} a_i b_j \chi _{A_i \cap B_j}$. By equivalent statement that we proved above, we are done.
+
+    \item Let $f, g: X\to \R$ be measurable functions. Then by Proposition 2.1.8, there exist a nondecreasing sequences of real valued measurable simple functions $\left\{ f_n \right\}$ and $\left\{ g_n \right\}$ converging pointwise to $f$ and $g$ respectively. By part (1) of this problem $\left\{ f_n + g_n \right\}$ is a nondecresasing sequence of real valued measurable simple functions converging pointwise to $f+g$. By Proposition 2.1.5, we have that limits of measurable functions are measurable and we are done.
+
+\end{enumerate}
+
+\subsubsection{Question 6}
+Let $f: X \to \R$ be measurable function. We first show that $x\mapsto t -f (x)$ is a measurable function for every $t\in\R$. Let $t\in \R$ be fixed, let $s\in \R$ be some arbitrary real number. Then $\left\{ x\in X : t-f(x) <s \right\}= \left\{ x\in X: f(x)>t-s \right\}$. Since the set on the right hand side of the previous inequality is measurable as $f$ is measurable, we are done.
+
+Now, let $f,g : X \to \mathbb R$ be measurable functions. To show that $f+g$ is measurable, let $t\in\R$. Then the set $\left\{ x\in X : f(x)+g(x) <t \right\}= \left\{ x\in X: g(x) <t-f(x) \right\}$. Since $g$ is measurable and the function $x\mapsto t-f(x)$ is measurable by the previous paragraph, Proposition 2.1.6 implies that $f+g$ is measurable.
 
 \end{document}

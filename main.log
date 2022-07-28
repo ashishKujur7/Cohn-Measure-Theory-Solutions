@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.6.1)  28 JUL 2022 14:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.6.1)  28 JUL 2022 21:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,18 +632,44 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./main.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (15.0997pt too wide) in paragraph at lines 251--252
+\T1/futs/m/n/12 in $\FML/futmi/m/it/12 X$ \T1/futs/m/n/12 where $[][] \FML/futm
+i/m/it/12 f[]\T1/futs/m/n/12 (\FML/futmi/m/it/12 x\T1/futs/m/n/12 )$ ex-ists. N
+ow $\FMS/futm/m/n/12 j\FML/futmi/m/it/12 f\FMS/futm/m/n/12 j$ \T1/futs/m/n/12 i
+s a mea-sur-able func-tion. So the set $\FML/futmi/m/it/12 C \T1/futs/m/n/12 :\
+FMS/futm/m/n/12 Å [][] []$
+ []
+
+
+Overfull \hbox (13.31921pt too wide) in paragraph at lines 259--261
+\FML/futmi/m/it/12 B[]; B[]; [] ; B[]$ \T1/futs/m/n/12 such that $\FML/futmi/m/
+it/12 g \FMS/futm/m/n/12 Å [][] \FML/futmi/m/it/12 b[]^^_[]$\T1/futs/m/n/12 . I
+t is then easy to see that $\FML/futmi/m/it/12 f \FMS/futm/m/n/12 Ä \FML/futmi/
+m/it/12 g \FMS/futm/m/n/12 Å [][] [][] [] \FML/futmi/m/it/12 ^^_[]$
+ []
+
+[3]
+Overfull \hbox (20.95755pt too wide) in paragraph at lines 267--268
+\T1/futs/m/n/12 for ev-ery $\FML/futmi/m/it/12 t \FMS/futm/m/n/12 2 \U/futm/m/n
+/12 R$\T1/futs/m/n/12 . Let $\FML/futmi/m/it/12 t \FMS/futm/m/n/12 2 \U/futm/m/
+n/12 R$ \T1/futs/m/n/12 be fixed, let $\FML/futmi/m/it/12 s \FMS/futm/m/n/12 2 
+\U/futm/m/n/12 R$ \T1/futs/m/n/12 be some ar-bi-trary real num-ber. Then $[] \F
+MS/futm/m/n/12 Å
+ []
+
+[4] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 39587A4B50A302D268E5A1A6B3EB3B7D;850.
+(rerunfilecheck)             Checksum: 58827D064EF08BEE093C484173723E71;990.
  ) 
 Here is how much of TeX's memory you used:
- 8581 strings out of 479304
- 124811 string characters out of 5869780
- 446016 words of memory out of 5000000
- 25566 multiletter control sequences out of 15000+600000
+ 8590 strings out of 479304
+ 124955 string characters out of 5869780
+ 455016 words of memory out of 5000000
+ 25570 multiletter control sequences out of 15000+600000
  454861 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,5n,74p,440b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,5n,74p,763b,494s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dis
@@ -651,11 +677,11 @@ t/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/ut
 opia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a
-.pfb>
-Output written on main.pdf (3 pages, 61040 bytes).
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on main.pdf (4 pages, 73638 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
