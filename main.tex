@@ -268,4 +268,41 @@ Let $f: X \to \R$ be measurable function. We first show that $x\mapsto t -f (x)$
 
 Now, let $f,g : X \to \mathbb R$ be measurable functions. To show that $f+g$ is measurable, let $t\in\R$. Then the set $\left\{ x\in X : f(x)+g(x) <t \right\}= \left\{ x\in X: g(x) <t-f(x) \right\}$. Since $g$ is measurable and the function $x\mapsto t-f(x)$ is measurable by the previous paragraph, Proposition 2.1.6 implies that $f+g$ is measurable.
 
+\subsubsection{Question 7}
+
+\subsubsection{Question 8}
+
+\subsubsection{Question 9}
+
+\subsubsection{Question 10}
+Let $\scrV _0$ be the collection of all Borel functions $f:\R \to \R$. Proposition 2.1.7. shows that $\scrV _ 0$ is a vector space. Since every continuous function is Borel measurable, we have the set of allcontinuous functions from $\R$ to $\R$ is contained in $\scrV _0$. The third property is satisfied due to Proposition 2.1.5.
+
+We follow the hint given in the book. Let $\scrV$ be a collection of functions satisfying the three criteria given. Let $S\left( \scrV \right)=\left\{ A\subseteq \R : \chi_{A} \in \scrV \right\}$. Clearly
+
+
+\newpage
+
+\subsection{Properties That Hold Almost Everywhere}
+\subsubsection{Question 1}
+Consider the function $\chi _{\R\setminus\Q}$ and the constant function $1$. Both are Borel measurable. and they both agree on a dense set of $\R$, namely, $\R\setminus \Q$. But the set $\left\{ x\in\R : \chi_{\R \setminus \Q} \ne 1 \right\}=\Q$ which is a countable set and hence $\lambda$-negligible.
+
+\subsubsection{Question 2}
+Let $\left\{ x_n \right\}$ be a sequence of real numbers and let $\mu$ be the measure defined by $\mu = \sum_n \delta_{x_n}$. Exercise 1.2.6 shows that $\mu$ is indeed a measure on $\left( \R , \scrB \left( \R \right) \right)$. Let $f,g : \R \to \R $ be two functions.
+
+We want to show that $f,g$ agree $\mu$-almost everywhere iff $f(x_n)=g(x_n)$ holds for every $n$.
+
+$\left( \Longrightarrow \right)$ Suppose that $f,g$ agree almost everywhere. Then $A:=\left\{ x\in \R : f(x)\ne g(x) \right\}$ is $\mu$ negligible. Since $A \in \scrB (\R)$, we have that $\mu (A) =0$. So if there was some $k\in \N$ such that $f(x_k)\not =g(x_k)$ then $x_k\in A$ and then $\mu \left( \left\{ x_k \right\} \right) =1$. But since $\left\{ x_k \right\} \subseteq A$, we have that $1 < 0$ which is absurd. Hence, we are done!
+
+$\left( \Longleftarrow \right)$ Suppose that $f(x_n ) = g(x_n)$ for every $n\in\N$. We need to prove that $A$ is $\mu$-negligible. Since $A \cap \left\{ x_k : k\in \N \right\} = \emptyset$, we have that $\mu (A) = \sum _n \delta _{x_n} \left( A \right) =0$.
+
+\subsubsection{Question 3}
+We show the following is true: If $f$ is a continuous real-valued function on $\R$ and $f=0$ $\lambda$-almost everywhere then $f$ is the zero function.
+
+By assumption, $\mu\left( \left\{ x\in \R : f\left( x \right)\ne 0 \right\}\right) =0$.
+
+Let $x\in \R$. We claim that for every $\varepsilon > 0$ there is some $y\in \R$ such that $f(y)=0$ and $|y-x|<\varepsilon$.
+
+Suppose not. Then there is some $\varepsilon >0$ such that for every $y\in \R$ with $|y-x|<\varepsilon$ we have $f(y)\ne 0$.
+
+But note that previous statement is a contradiction as $\left( x-\varepsilon, x+\varepsilon \right) \subset \left\{ x\in \R : f(x) \ne 0 \right\}$.
 \end{document}
