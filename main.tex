@@ -305,4 +305,18 @@ Let $x\in \R$. We claim that for every $\varepsilon > 0$ there is some $y\in \R$
 Suppose not. Then there is some $\varepsilon >0$ such that for every $y\in \R$ with $|y-x|<\varepsilon$ we have $f(y)\ne 0$.
 
 But note that previous statement is a contradiction as $\left( x-\varepsilon, x+\varepsilon \right) \subset \left\{ x\in \R : f(x) \ne 0 \right\}$.
+\subsubsection{Question 4}
+
+\subsubsection{Question 5}
+Let $\left( X, \scrA , \mu \right)$ be a measure space. Let $f, f_1 , f_2 , \ldots$ be a sequence of $\scrA$-measurable $\left[ -\infty, \infty \right]$-valued functions on $X$. Suppose that $f_n \to f$ converges $\mu$-almost everywhere. 
+
+Let $N=\left\{ x\in X : \lim_n f_n (x) \ne f(x) \right\}$. Define $g_n : X \to \left[ -\infty, \infty \right]$ by $g_n=f_n \circ \chi _ {N^c} + f \circ \chi _ N$ for every $x\in X$ and every $n\in\N$.
+
+We claim that $g_n \to f$ everywhere. This is easy to see. If $x\in N$ then $g_n (x) = f(x)$ for every $n\in\N$ and if $x\in N^c$ then $g_n (x) = f_n (x)$ and $\lim_n g_n (x) = \lim_n f_n (x)$. Since $x\in N^c$, $\lim_n g_n (x) = f(x)$.
+It is easy to see that $N^c \subset \left\{ x\in X : g_n (x) = f_n (x) \right\}$ so $\left\{ x\in X : g_n (x) \ne f_n (x) \right\} \subseteq N$. Since $N$ is $\mu$-negligible, we are done.
+
+
+\subsubsection{Question 6}
+See Wikipedia! Thomae's function!
+
 \end{document}

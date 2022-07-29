@@ -21,3 +21,6 @@
 \contentsline {subsubsection}{\numberline {\S 2.2.1}Question 1}{5}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {\S 2.2.2}Question 2}{5}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {\S 2.2.3}Question 3}{5}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {\S 2.2.4}Question 4}{5}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {\S 2.2.5}Question 5}{5}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {\S 2.2.6}Question 6}{5}{subsubsection.2.2.6}%
